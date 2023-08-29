@@ -189,7 +189,8 @@ export default class ExampleTextareaComment extends Component {
                         margin: '0px 2rem',
                         borderRadius: '0.5rem',
                         backgroundColor: '#fff',
-                        overflow: 'hidden'
+                        overflow: 'scroll',
+                        //WebkitOverflowScrolling: 'auto'
                     }}
                 >
                     <div
